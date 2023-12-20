@@ -17,7 +17,7 @@ div {
     color: aqua;
 }
 
-#facebook a:hover{
+#facebook a:active{
     color: blue;
     
 }
