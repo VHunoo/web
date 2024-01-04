@@ -26,9 +26,11 @@ div {
 }
 .box1{
     background-color: blue;
+    float: left;
 }
 .box2{
     background-color: red;
+    float: left;
 }
 .box3{
     background-color: green;
