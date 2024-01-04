@@ -1,6 +1,4 @@
-p {
-    color: seagreen;
-}
+
 nav a {
     color: khaki;
     text-decoration: none;
@@ -36,7 +34,4 @@ div {
     background-color: green;
     width: 200px;
     clear: both;
-}
-div p{
-color: black;
 }
