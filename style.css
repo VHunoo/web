@@ -34,5 +34,6 @@ div {
 }
 .box3{
     background-color: green;
-    
+    width: 200px;
+    clear: both;
 }
