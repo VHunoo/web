@@ -24,3 +24,11 @@ body {
 .season p {
     text-align: center;
 }
+nav a {
+    color: khaki;
+    text-decoration: none;
+    background-color: darkblue;
+}
+nav a:hover {
+    color: blueviolet;
+    font-size: larger;
