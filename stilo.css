@@ -14,13 +14,14 @@ body {
     width: 200px;
     height: 240px;
     margin: 10px;
-    align-items: center;
+    
 }
 
 .season img {
     width: 100%;
     height: auto;
-    align-items: center;
+    display: block;
+    margin: auto;
 
 }
 
