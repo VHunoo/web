@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     height: 100vh;
     margin: 0;
     flex-wrap: wrap;
@@ -14,11 +14,13 @@ body {
     width: 200px;
     height: 240px;
     margin: 10px;
+    align-items: center;
 }
 
 .season img {
     width: 100%;
     height: auto;
+    
 }
 
 .season p {
