@@ -20,7 +20,8 @@ body {
 .season img {
     width: 100%;
     height: auto;
-    
+    align-items: center;
+
 }
 
 .season p {
