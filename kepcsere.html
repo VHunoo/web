@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+    width: 250px;
+    height: 200px;
+    
+}
+#ki {
+    display: none;
+}
+    </style>
+</head>
+<body>
+ <img src="img/kriszh.png" alt="" id="be">
+ <img src="img/kriszh2.png" alt="" id="ki">
+ <br>
+ <input type="button" value="ON" onclick="bekapcs()" >
+ <input type="button" value="OFF" onclick="kikapcs()">
+    <script>
+        function bekapcs(){
+            document.getElementById("be").style.display = "block";
+            document.getElementById("ki").style.display = "none";
+
+        }
+        function kikapcs(){
+            document.getElementById("be").style.display = "none";
+            document.getElementById("ki").style.display = "block";
+
+}
+    </script>
+    
+</body>
+</html>
