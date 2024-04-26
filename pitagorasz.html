@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitagorasz tétel</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+       
+        
+        .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+        </style>
+</head>
+<body>
+    <div>
+    <h1 class="bebas-neue-regular">Pitagorasz tétele</h1>
+    <img src="https://www.matekmindenkinek.hu/files/article/article_210/Pitagorasz%20t%C3%A9tel_sm.webp" alt="">
+    <form action="javascript" style="width: 270px;">
+        <fieldset>
+        <legend>Számláló</legend>
+        <label for="a" >A oldal:</label>
+        <input type="number" name="as" id="a">
+        <label for="b">B oldal:</label>
+        <input type="number" name="as" id="b">
+        <label for="c">C oldal:</label>
+        <input type="number" name="as" id="c">
+        <br>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+        </div>
+</fieldset>
+    </form>
+    <p style="font-size: 20px;" class="rak">A tétel. Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a befogók) négyzetösszegével. Tehát: ha egy háromszög derékszögű, akkor a leghosszabb oldalára emelt négyzet területe a másik két oldalra emelt négyzetek területének összegével egyenlő.</p>
+    <script>
+        function szamol(){
+           C.value = Math.sqrt (a.value)
+        }
+    </script>
+</body>
+</html>
