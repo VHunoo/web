@@ -41,9 +41,17 @@
     </form>
     <p style="font-size: 20px;" class="rak">A tétel. Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a befogók) négyzetösszegével. Tehát: ha egy háromszög derékszögű, akkor a leghosszabb oldalára emelt négyzet területe a másik két oldalra emelt négyzetek területének összegével egyenlő.</p>
     <script>
-        function szamol(){
-           C.value = Math.sqrt (a.value)
+        function szamolas() {
+        var a = parseFloat(document.getElementById('a').value);
+        var b = parseFloat(document.getElementById('b').value);
+
+        if (!isNaN(a) && !isNaN(b)) {
+            var c = Math.sqrt(a * a + b * b);   
+            document.getElementById('c').value = c.toFixed(2);
+        } else {
+            alert('Kérem adjon meg érvényes számokat az A és B oldalhoz!');
         }
+    }
     </script>
 </body>
 </html>
