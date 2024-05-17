@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+      background-color: aqua;
+    }
+</style>
+<body>
+    <fieldset style="width: fit-content; margin-left: auto; margin-right: auto; margin-top: 30vh;">
+        <form action="javascript:OK()">
+            <input type="email" name="adat" id="email" placeholder="email" required><br>
+            <input type="text" name="adat" id="nev" placeholder="Név" required><br>
+            <input type="checkbox" name="adat" id="aszf" checked > Á.SZ.F elfogadása <br>
+            <input type="checkbox" name="adat" id="hirlevel" > hírlevélre Feliratkozás <br>
+            <input type="submit" name="adat" id="feliratkozas" value="Feliratkozás" placeholder="Feliratkozás" > <br>
+    </fieldset>
+        
+    </form>
+    <script>
+       function OK() {
+        if (aszf.checked) {
+            localStorage.setItem("email", email.value);
+            localStorage.setItem("nev", nev.value);
+            if(hirlevel.checked){
+                localStorage.setItem("Hírlevél", "igen");
+                alert("Sikeresen feliratkoztal tesomsz")
+            }
+            else{
+                localStorage.setItem("Hírlevél", "nem");
+            }
+        }
+        else{
+            alert("FOGADD EEEEEELLL");
+        }
+
+       }
+
+    </script>
+</body>
+</html>
